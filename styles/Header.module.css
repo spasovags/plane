@@ -1,0 +1,15 @@
+.header-container{
+    color: black;
+    padding:0em 0.3em;
+    text-align: center;
+    background-image: url("/images/techstack/photos/header.png"); /* The image used */
+    background-color: var(--brand); /* Used if the image is unavailable */
+    height: 150px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size:cover; /* Resize the background image to cover the entire container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
