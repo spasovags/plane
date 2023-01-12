@@ -16,9 +16,9 @@ html {
   box-sizing: border-box;
   color: var(--text1);
 
-  --brand-hue: 29;
-  --brand-saturation: 98%;
-  --brand-lightness: 25%;
+  --brand-hue: 220;
+  --brand-saturation: 38%;
+  --brand-lightness: 9%;
   
   /* light */
   --brand-light: hsl(var(--brand-hue), var(--brand-saturation), var(--brand-lightness));
@@ -38,10 +38,10 @@ html {
     calc(var(--brand-lightness) / 1.5)
   );
   --text1-dark: hsl(var(--brand-hue) 15% 10%);
-  --text2-dark: hsl(var(--brand-hue) 18% 90%);
+  --text2-dark: hsl(var(--brand-hue) 90% 80%);
   --text3-dark: hsl(var(--brand-hue) 18% 90%);
   --surface1-dark: hsl(var(--brand-hue) 98% 4%);
-  --footer-dark: hsl(var(--brand-hue) 98% 4%);
+  --footer-dark: hsl(var(--brand-hue) 38% 7%);
   --surface2-dark: hsl(var(--brand-hue) 10% 80%);
   --surface3-dark: hsl(var(--brand-hue) 5%  20%);
   --surface4-dark: hsl(var(--brand-hue) 5% 25%);

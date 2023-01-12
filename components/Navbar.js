@@ -34,14 +34,11 @@ const Navbar = () => {
         </div>
         <ul className={contentClassname}>
           <li className={`${styles["menu-li"]}`}>
-            <Link href="#" className={`${styles["menu-link"]}`}>tech stack</Link>
+            <Link href="#" className={`${styles["menu-link"]}`}>articles</Link>
          </li>
           <li className={`${styles["menu-li"]}`}>
-            <Link href="#" className={`${styles["menu-link"]}`}>contact me</Link>
+            <Link href="#" className={`${styles["menu-link"]}`}>about me</Link>
             </li>
-          <li className={`${styles["menu-li"]}`}>
-            <Link href="#" className={`${styles["menu-link"]}`}>about</Link>
-          </li>
           <li className={`${styles["menu-li"]}`}>
             <Link href="#" className={`${styles["menu-link"]}`}>Github</Link>
           </li>

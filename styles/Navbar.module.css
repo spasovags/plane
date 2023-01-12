@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Sofia+Sans+Condensed:wght@300&display=swap'); 
+
 .menu-li{
     list-style: none;
   }
@@ -113,6 +115,11 @@
     .menu-li {
       position: relative;
       display: inline-block;
+    }
+    .menu-link{
+      font-family: 'Montserrat', sans-serif;
+      font-family: 'Sofia Sans Condensed', sans-serif;
+      font-size: x-large;
     }
     
     .menu-li-content {
