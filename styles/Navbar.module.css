@@ -108,7 +108,7 @@
       border-style: none;
     }
     .menu-link:hover {
-      color: var(--text2);
+      color: var(--text3);
       background: var(--surface1);
     }
     
@@ -156,39 +156,7 @@
         background-image: none;
         background-color: var(--brand);
       }
-      .menu-li-content {
-        display: none;
-        position: absolute;
-        background-color: var(--brand);
-        min-width: 105px;
-        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        z-index: 1;
-      }
-    
-      .menu-li-content a {
-        color: var(--text2);
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-      }
-      .menu-li-content a:hover {
-        background-color: var(--surface1);
-        color: var(--text1);
-        font-weight: bold;
-      }
-    
-      .menu-li:hover .menu-li-content {
-        display: block;
-      }
-    
-      .menu-li:hover .menu-link {
-        background-color: var(--surface2);
-        color: var(--text2);
-      }
-      .menu-link:hover {
-        color: var(--text2);
-        background-image: linear-gradient(to right, var(--surface1), var(--surface1));
-      }
+      
       .nav-background {
         background-color: var(--brand);
       }

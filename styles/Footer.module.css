@@ -10,7 +10,7 @@
 .footer-sm-icons{
     width: 100%;
     font-size:xx-large;
-    color: var(--text3);
+    color: var(--text-footer);
     display: flex;
     align-items: center;
     justify-content: center;

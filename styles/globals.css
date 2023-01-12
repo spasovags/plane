@@ -23,14 +23,13 @@ html {
   /* light */
   --brand-light: hsl(var(--brand-hue), var(--brand-saturation), var(--brand-lightness));
   --text1-light: hsl(var(--brand-hue), var(--brand-saturation), 10%);
-  --text2-light: hsl(var(--brand-hue), 18%, 90%);
+  --text2-light: hsl(var(--brand-hue), 88%, 90%);
   --text3-light: hsl(var(--brand-hue), 18%, 9%);
-  --surface1-light: hsl(var(--brand-hue) 99% 12%);
-  --footer-light: hsl(var(--brand-hue) 99% 92%);
+  --text-footer-light: hsl(var(--brand-hue), 18%, 9%);
+  --surface1-light: hsl(var(--brand-hue) 99% 92%);
+  --footer-light: hsl(var(--brand-hue) 99% 98%);
   --surface2-light: hsl(var(--brand-hue) 20% 70%);
-  --surface3-light: hsl(var(--brand-hue) 20% 92%);
-  --surface4-light: hsl(var(--brand-hue) 20% 85%);
-  
+    
   /* dark */
   --brand-dark: hsl(
     var(--brand-hue)
@@ -39,13 +38,12 @@ html {
   );
   --text1-dark: hsl(var(--brand-hue) 15% 10%);
   --text2-dark: hsl(var(--brand-hue) 90% 80%);
-  --text3-dark: hsl(var(--brand-hue) 18% 90%);
-  --surface1-dark: hsl(var(--brand-hue) 98% 4%);
+  --text3-dark: hsl(var(--brand-hue) 18% 3%);
+  --text-footer-dark: hsl(var(--brand-hue) 18% 3%);
+  --surface1-dark: hsl(var(--brand-hue) 98% 87%);
   --footer-dark: hsl(var(--brand-hue) 38% 7%);
   --surface2-dark: hsl(var(--brand-hue) 10% 80%);
-  --surface3-dark: hsl(var(--brand-hue) 5%  20%);
-  --surface4-dark: hsl(var(--brand-hue) 5% 25%);
-  
+   
    /* dim */
    --brand-dim: hsl(
     var(--brand-hue) 
@@ -56,8 +54,6 @@ html {
   --text2-dim: hsl(var(--brand-hue) 10% 61%);
   --surface1-dim: hsl(var(--brand-hue) 10% 20%);
   --surface2-dim: hsl(var(--brand-hue) 10% 25%);
-  --surface3-dim: hsl(var(--brand-hue) 5%  30%);
-  --surface4-dim: hsl(var(--brand-hue) 5% 35%);
 }
 :root {
   color-scheme: light;
@@ -67,11 +63,10 @@ html {
   --text1: var(--text1-light);
   --text2: var(--text2-light);
   --text3: var(--text3-light);
+  --text-footer: var(--text-footer-light);
   --surface1: var(--surface1-light);
   --footer: var(--footer-light);
   --surface2: var(--surface2-light);
-  --surface3: var(--surface3-light);
-  --surface4: var(--surface4-light);
 }
 
 /*queries*/
@@ -83,12 +78,11 @@ html {
     --text1: var(--text1-dark);
     --text2: var(--text2-dark);
     --text3: var(--text3-dark);
+    --text-footer: var(--text-footer-dark);
     --surface1: var(--surface1-dark);
     --footer: var(--footer-dark);
     --surface2: var(--surface2-dark);
-    --surface3: var(--surface3-dark);
-    --surface4: var(--surface4-dark);
-   }
+  }
 }
 
 [color-scheme="light"] {
@@ -99,8 +93,6 @@ html {
   --text2: var(--text2-light);
   --surface1: var(--surface1-light);
   --surface2: var(--surface2-light);
-  --surface3: var(--surface3-light);
-  --surface4: var(--surface4-light);
 }
 
 [color-scheme="dark"] {
@@ -111,9 +103,7 @@ html {
   --text2: var(--text2-dark);
   --surface1: var(--surface1-dark);
   --surface2: var(--surface2-dark);
-  --surface3: var(--surface3-dark);
-  --surface4: var(--surface4-dark);
-  }
+}
 
 [color-scheme="dim"] {
   color-scheme: dark;
