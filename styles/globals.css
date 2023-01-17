@@ -39,7 +39,7 @@ html {
   --text1-dark: hsl(var(--brand-hue) 15% 10%);
   --text2-dark: hsl(var(--brand-hue) 90% 80%);
   --text3-dark: hsl(var(--brand-hue) 18% 3%);
-  --text-footer-dark: hsl(var(--brand-hue) 18% 3%);
+  --text-footer-dark: hsl(var(--brand-hue) 83% 89%);
   --surface1-dark: hsl(var(--brand-hue) 98% 87%);
   --footer-dark: hsl(var(--brand-hue) 38% 7%);
   --surface2-dark: hsl(var(--brand-hue) 10% 80%);
