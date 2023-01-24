@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Sofia+Sans+Condensed:wght@300&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Righteous&display=swap');
 
 .menu-li{
     list-style: none;
   }
   .nav-background {
-      background: var(--brand);
+    font-family: 'Indie Flower', cursive;      background: var(--brand);
       width: 100%;
       position: sticky;
       top: 0;
@@ -117,9 +117,7 @@
       display: inline-block;
     }
     .menu-link{
-      font-family: 'Montserrat', sans-serif;
-      font-family: 'Sofia Sans Condensed', sans-serif;
-      font-size: x-large;
+      font-family: 'Indie Flower', cursive;
     }
     
     .menu-li-content {

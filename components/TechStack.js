@@ -1,7 +1,6 @@
 import React from 'react'
 import Technology from '../components/Technology'
 import styles from '../styles/TechStack.module.css'
-import { useInView } from 'react-intersection-observer';
 
 
 const TechStack = ({technologies}) => {

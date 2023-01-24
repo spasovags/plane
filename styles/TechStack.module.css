@@ -1,12 +1,12 @@
 .techstack-container{
     overflow: hidden;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;    
     margin: 0 0px;
     position: relative;
 }
 .techstack-text{
-  margin-top: 3em;
+  margin-top: 0em;
   margin-bottom: 0px;
   text-align: center;
   font-size: 2em;
@@ -34,10 +34,10 @@
     }
   }
 
-/*media queries*/
+/*media queries
   @media screen and (min-width: 768px) {
     .techstack-container{
       grid-template-columns: 1fr 1fr 1fr;
     }
-  }
+  }*/
    
