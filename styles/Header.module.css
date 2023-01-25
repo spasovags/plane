@@ -13,4 +13,14 @@
     align-items: center;
     justify-content: center;
     margin: 0;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: headerAnim 8s infinite alternate;
 }
+@keyframes headerAnim {
+    from {font-size: 15rem;}
+    to {font-size: 0.1rem;}
+
+  }
+  
