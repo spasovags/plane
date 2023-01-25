@@ -12,14 +12,16 @@ const Technology = (props) => {
   const leftPhoto = "leftPhoto";
   const rightPhoto = "rightPhoto";
 
-  let photoPosition = props.indexAnim%2==0?leftAnim:rightAnim;
+  let photoPosition = props.indexAnim%2==0?leftPhoto:rightPhoto;
   
   const basePath = '/images/techstack'
   const { ref: cardRef, inView: IsCardsVisible } = useInView({triggerOnce: true, threshold:0.2});
-console.log(post.description)
-   return (
+
+  return (
       <div 
-      className={`${styles["card"]} ${IsCardsVisible ? `${styles[`${anim}`]}` : ""}`}
+      className={`${styles["card"]} 
+      ${IsCardsVisible ? `${styles[`${anim}`]}` : ""} 
+      ${styles[`${photoPosition}`]}`}
       ref={cardRef} >
         <div className={`${styles["photoCont"]}`} >
           <div className={`${styles["photoCard"]}`} >

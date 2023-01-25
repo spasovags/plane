@@ -8,6 +8,7 @@
     align-items: center;
     justify-content: space-between;
 }
+
 .text-card {
   font-family: 'Indie Flower', cursive;
   color: var(--brand);
@@ -62,9 +63,14 @@
 /*media queries*/
 @media (min-width: 600px) {
   .card{
-    flex-direction: row;
     height: 300px;
     margin-bottom: 3em;
+  }
+  .leftPhoto.card{
+    flex-direction: row;
+  }
+  .rightPhoto.card{
+    flex-direction: row-reverse;
   }
   .photoCard{
     height: 330px;
@@ -74,5 +80,11 @@
   }
   .text-card{
     flex: 1;
+  }
+}
+@media (min-width: 1000px) {
+  .card{
+   width: 50%;
+   margin: 1em auto 3em auto;
   }
 }
