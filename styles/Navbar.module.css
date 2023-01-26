@@ -20,13 +20,16 @@
       flex-direction: column;
       width: 100%;
       position: fixed;
-      right: -100%;
+      left: -100%;
       top: 30px;
       gap: 0;
       padding-inline-start: 0px;
       text-align: center;
       transition: 0.3s;
   
+    }
+    .hideMenu {
+      left: 0px;
     }
     .logo-close-container {
       display: flex;
@@ -54,7 +57,7 @@
       display: inline-block;
     }
     .menu-container span{
-      background-color:#FFF;
+      background-image: url("/images/2.jpg");
       position: absolute;
       border-radius: 2px;
       transition: .3s cubic-bezier(.8, .5, .2, 1.4);
@@ -74,29 +77,27 @@
       left: 0px;
     }
     .menu-container:not(.active):hover span:nth-child(1){
-      transform: scaleX(.8);
+      transform: scaleX(1.5);
     }
     .menu-container:not(.active):hover span:nth-child(2){
-      transform: scaleX(.5);
+      transform: scaleX(1.4);
     }
     .menu-container:not(.active):hover span:nth-child(3){
-      transform: scaleX(.8);
+      transform: scaleX(1.3);
     }
     .menu-container.active span:nth-child(1){
-      top: 13px;
+      top: 0px;
+      transform: scaleX(1.5);
     }
     .menu-container.active span:nth-child(2){
-      top:13px;
+      top: 0px;
     }
     .menu-container.active span:nth-child(3){
-      top: 13px;
+      top: 0px;
     }
   
     /* end of hamburger menu */
     
-    .hideMenu {
-      right: 0;
-    }
    .menu-link {
       width: 100%;
       display: inline-block;

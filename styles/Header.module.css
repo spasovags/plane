@@ -1,11 +1,11 @@
 .header-container{
     font-family: 'Indie Flower', cursive;
     color: black;
-    padding:0em 0.3em;
+    padding: 0px;
     text-align: center;
     background-image: url("/images/2.jpg"); /* The image used */
     background-color: var(--brand); /* Used if the image is unavailable */
-    height: 150px;
+    height: 200px;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size:cover; /* Resize the background image to cover the entire container */
@@ -13,18 +13,13 @@
     align-items: center;
     justify-content: center;
     margin: 0;
-    text-overflow:ellipsis;
     white-space: nowrap;
-    overflow: hidden;
     animation: headerAnim 8s infinite alternate;
-    background: linear-gradient(-45deg, #eeaa52, #e73c6f, #2394d5, #2af3b7);
-    background-size: 200% 200%;
     -webkit-background-clip: text;
     -webkit-text-stroke: 8px transparent;
 }
 @keyframes headerAnim {
-    from {font-size: 15rem;}
-    to {font-size: 0.1rem;}
-
+    from {font-size: 0.1rem;}
+    to {font-size: 8rem;}
   }
   
