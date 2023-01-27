@@ -17,6 +17,7 @@
     animation: headerAnim 8s infinite alternate;
     -webkit-background-clip: text;
     -webkit-text-stroke: 8px transparent;
+    overflow: hidden;
 }
 @keyframes headerAnim {
     from {font-size: 0.1rem;}
