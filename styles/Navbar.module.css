@@ -104,23 +104,19 @@
       background: var(--brand);
       color: var(--text2);
       padding: 16px 0px;
-      font-size: 16px;
+      font-size: xxx-large;
       cursor: pointer;
       border-style: none;
+      font-family: 'Indie Flower', cursive;
     }
     .menu-link:hover {
       color: var(--text3);
       background: var(--surface1);
-    }
-    
+    }   
     .menu-li {
       position: relative;
       display: inline-block;
     }
-    .menu-link{
-      font-family: 'Indie Flower', cursive;
-    }
-    
     .menu-li-content {
       display: none;
     }
@@ -149,6 +145,7 @@
         display: inline-block;
       }
       .menu-link {
+        font-size: 16px;
         width: auto;
         padding: 16px 10px;
         color: var(--text2);
