@@ -23,7 +23,7 @@ const Technology = (props) => {
       ${IsCardsVisible ? `${styles[`${anim}`]}` : ""} 
       ${styles[`${photoPosition}`]}`}
       ref={cardRef} >
-        <div className={`${styles["photoCont"]}`} >
+        <div className={`${styles["photoContainer"]}`} >
           <div className={`${styles["photoCard"]}`} >
            <Image 
            src={`${basePath}/${post.photo}`} 
@@ -33,6 +33,7 @@ const Technology = (props) => {
          </div>           
         </div>    
         <div className={`${styles["text-card"]}`} >
+           <h2>{post.title}</h2>
            <p>{post.description}</p>
         </div>   
       </div>

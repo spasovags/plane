@@ -13,8 +13,25 @@
   font-family: 'Indie Flower', cursive;
   color: var(--brand);
   margin: 0px 0.5em 0.7em;
+  display: -webkit-box;
+   -webkit-line-clamp: 4;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+   text-overflow: ellipsis;
 }
-.photoCont{
+.text-card h2{
+  text-align: center;
+  background: linear-gradient(to left,
+                    violet,
+                    indigo,
+                    blue,
+                    green,
+                    red);
+            -webkit-background-clip: text;
+            color: transparent;
+
+}
+.photoContainer{
   width: 100%;
 }
 .photoCard {
@@ -75,7 +92,7 @@
   .photoCard{
     height: 330px;
   }
-  .photoCont{
+  .photoContaner{
     flex: 1;
   }
   .text-card{
