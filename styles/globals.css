@@ -27,7 +27,7 @@ html {
   --text3-light: hsl(var(--brand-hue), 18%, 9%);
   --text-footer-light: hsl(var(--brand-hue), 18%, 9%);
   --surface1-light: hsl(var(--brand-hue) 99% 92%);
-  --footer-light: hsl(var(--brand-hue) 99% 98%);
+  --footer-light: hsl(var(--brand-hue) 99% 12%);
   --surface2-light: hsl(var(--brand-hue) 20% 70%);
     
   /* dark */
