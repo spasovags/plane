@@ -9,37 +9,58 @@
     {
       "id": 2,
       "alt": "",
-      "photo": "3.png",      
+      "photo": "2.jpg",      
       "title": "lorem222 ipsum dolor sit amet",     
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique libero provident, repellat est tempora iste magnam magni vitae autem, voluptates doloribus voluptatibus labore architecto, error numquam odio atque expedita placeat."
     },
     {  
       "id": 3,
       "alt": "",
-      "photo": "4.png",      
+      "photo": "3.jpg",      
       "title": "lorem333 ipsum sit amet",     
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique libero provident, repellat est tempora iste magnam magni vitae autem, voluptates doloribus voluptatibus labore architecto, error numquam odio atque expedita placeat."
     },
     {
       "id": 4,
       "alt": "",
-      "photo": "5.png", 
+      "photo": "4.jpg", 
       "title": "lorem444 ipsum dolor",     
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique libero provident, repellat est tempora iste magnam magni vitae autem, voluptates doloribus voluptatibus labore architecto, error numquam odio atque expedita placeat."
     },
     {
       "id": 5,
       "alt": "",
-      "photo": "6.png",      
+      "photo": "5.jpg",      
       "title": "lorem555 ipsum",     
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique libero provident, repellat est tempora iste magnam magni vitae autem, voluptates doloribus voluptatibus labore architecto, error numquam odio atque expedita placeat."
     },
     {
       "id": 6,
       "alt": "",
-      "photo": "7.png",      
+      "photo": "6.jpg",      
       "title": "lorem666",     
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique libero provident, repellat est tempora iste magnam magni vitae autem, voluptates doloribus voluptatibus labore architecto, error numquam odio atque expedita placeat."
+    },
+    {
+      "id": 7,
+      "alt": "",
+      "photo": "7.jpg",      
+      "title": "lorem555 ipsum",     
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique libero provident, repellat est tempora iste magnam magni vitae autem, voluptates doloribus voluptatibus labore architecto, error numquam odio atque expedita placeat."
+    },
+    {
+      "id": 8,
+      "alt": "",
+      "photo": "8.jpg",      
+      "title": "lorem666",     
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique libero provident, repellat est tempora iste magnam magni vitae autem, voluptates doloribus voluptatibus labore architecto, error numquam odio atque expedita placeat."
+    },
+    {
+      "id": 9,
+      "alt": "",
+      "photo": "9.jpg",      
+      "title": "lorem555 ipsum",     
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique libero provident, repellat est tempora iste magnam magni vitae autem, voluptates doloribus voluptatibus labore architecto, error numquam odio atque expedita placeat."
     }
-
+  
 ]
