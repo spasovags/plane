@@ -1,6 +1,6 @@
 .card {
-    border-radius: 30px;
-    background-color: white;  
+    border-radius: 200px;
+    background-color: transparent;  
     opacity: 0;
     margin:  1em 2em 1em;
     display: flex;
@@ -35,22 +35,20 @@
   width: 100%;
 }
 .photoCard {
-    width: 100%;
+    width: auto;
     height: 300px;
     margin: 0em;
     position: relative;
 }
 .photoCard img{
-  width: auto;
-  border-radius: 30px;
-
+  border-radius: 500px;
 }
 .leftAnim{
   opacity: 1;
   transform: translateX(-100%);
   animation-name: slideLeft;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
 }
 @keyframes slideLeft{
   from {
@@ -58,15 +56,15 @@
   }
 
   to {
-    transform: translateX(0%);
+    transform: translateX(100%);
   }
 }
 .rightAnim{
   opacity: 1;
   transform: translateX(100%);
   animation-name: slideRight;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
 }
 @keyframes slideRight{
   from {
@@ -74,7 +72,7 @@
   }
 
   to {
-    transform: translateX(0%);
+    transform: translateX(-100%);
   }
 }
 /*media queries*/

@@ -14,7 +14,7 @@ const Technology = (props) => {
 
   let photoPosition = props.indexAnim%2==0?leftPhoto:rightPhoto;
   
-  const basePath = '/images/techstack'
+  const basePath = '/images'
   const { ref: cardRef, inView: IsCardsVisible } = useInView({triggerOnce: true, threshold:0.2});
 
   return (
@@ -27,15 +27,16 @@ const Technology = (props) => {
           <div className={`${styles["photoCard"]}`} >
            <Image 
            src={`${basePath}/${post.photo}`} 
-           objectFit='cover'
            alt={post.alt}
-           layout="fill"/>
+           width={300}
+           height={300}
+           />
          </div>           
         </div>    
-        <div className={`${styles["text-card"]}`} >
+        {/* <div className={`${styles["text-card"]}`} >
            <h2>{post.title}</h2>
            <p>{post.description}</p>
-        </div>   
+  </div>  */} 
       </div>
    );
 }

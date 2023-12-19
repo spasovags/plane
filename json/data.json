@@ -1,12 +1,5 @@
 [
     {
-      "id": 1,
-      "alt": "",
-      "photo": "1.jpg",
-      "title": "lorem ipsum dolor sit amet",     
-      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique libero provident, repellat est tempora iste magnam magni vitae autem, voluptates doloribus voluptatibus labore architecto, error numquam odio atque expedita placeat."
-    },
-    {
       "id": 2,
       "alt": "",
       "photo": "2.jpg",      

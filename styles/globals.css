@@ -1,6 +1,6 @@
 html,
 body {
-  background-image: url('/images/techstack/backr3.jpg');
+  background-image: url('/images/backr3.jpg');
   background-size:cover;
   background-repeat: no-repeat;
   padding: 0;
@@ -70,6 +70,10 @@ html {
   --surface1: var(--surface1-light);
   --footer: var(--footer-light);
   --surface2: var(--surface2-light);
+}
+
+img{
+  width: auto;
 }
 
 /*queries*/
