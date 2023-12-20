@@ -7,6 +7,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .text-card {
@@ -47,16 +48,18 @@
   opacity: 1;
   transform: translateX(-100%);
   animation-name: slideLeft;
-  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-duration: 12s;
   animation-iteration-count: infinite;
 }
+
 @keyframes slideLeft{
   from {
-    transform: translateX(-100%);
+   transform: translateX(-100%) rotate(0deg);
   }
 
   to {
-    transform: translateX(100%);
+    transform: translateX(200%) rotate(360deg);
   }
 }
 .rightAnim{
@@ -68,11 +71,11 @@
 }
 @keyframes slideRight{
   from {
-    transform: translateX(100%);
+    transform: translateX(100%) rotate(0deg);
   }
 
   to {
-    transform: translateX(-100%);
+    transform: translateX(-100%) rotate(360deg);
   }
 }
 /*media queries*/

@@ -1,26 +1,25 @@
 .header-container{
     font-family: 'Indie Flower', cursive;
-    color: black;
+    color: white;
     padding: 0px;
     text-align: center;
-    background-image: url("/images/2.jpg"); /* The image used */
-    background-color: var(--brand); /* Used if the image is unavailable */
     height: 200px;
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size:cover; /* Resize the background image to cover the entire container */
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0;
-    white-space: nowrap;
-    animation: headerAnim 8s infinite alternate;
-    -webkit-background-clip: text;
-    -webkit-text-stroke: 8px transparent;
-    overflow: hidden;
+    white-space: pre;
+    animation: headerAnim 18s infinite alternate;
+    text-shadow: -7px 2px 13px rgb(224, 249, 63),
+    -7px 2px 13px rgb(253, 152, 11);
 }
 @keyframes headerAnim {
-    from {font-size: 0.1rem;}
-    to {font-size: 8rem;}
+    from {
+        transform: translateX(-100%);
+       }
+     
+       to {
+         transform: translateX(100%);
+       }
 }
   

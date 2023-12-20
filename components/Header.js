@@ -3,7 +3,7 @@ import styles from '../styles/Header.module.css'
 
 const Header = () => {
   return (
-    <h1 className={`${styles["header-container"]}`}>Welcome to my blog!</h1>    
+    <h1 className={`${styles["header-container"]}`}>W   e   l   c   o   m   e   t   o   m   y   b   l   o   g   !</h1>    
   )
 }
 
