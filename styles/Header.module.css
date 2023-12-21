@@ -1,21 +1,20 @@
 .header-container{
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Codystar', sans-serif;
     color: white;
     padding: 0px;
     text-align: center;
     height: 200px;
     display: flex;
+    font-size: 3rem;
     align-items: center;
     justify-content: center;
     margin: 0;
     white-space: pre;
     animation: headerAnim 18s infinite alternate;
-    text-shadow: -7px 2px 13px rgb(224, 249, 63),
-    -7px 2px 13px rgb(253, 152, 11);
-}
+    }
 @keyframes headerAnim {
     from {
-        transform: translateX(-100%);
+        transform: translateX(-100%) skew(200deg,10deg);
        }
      
        to {
