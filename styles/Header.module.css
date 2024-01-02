@@ -1,3 +1,7 @@
+.overf{
+  overflow: hidden;
+}
+
 .header-container{
     font-family: 'Codystar', sans-serif;
     color: white;
