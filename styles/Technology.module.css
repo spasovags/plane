@@ -75,7 +75,7 @@
   }
 
   to {
-    transform: translateX(-100%) rotate(360deg);
+    transform: translateX(-200%) rotate(360deg);
   }
 }
 /*media queries*/
